@@ -62,14 +62,16 @@
           <h1 class="hero-title">
             Эффективные решения для <br>вашего бизнеса
           </h1>
-          <button type="button" name="заказать услугу" class="hero-button" data-modal-open>
+          <button name="заказать услугу" class="hero-button" data-modal-open>
             Заказать услугу
           </button>
           
-          <div class="backdrop is-hidden">
-            <div class="modal" data-modal>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos velit, ea laborum harum dolor illum aliquid inventore. Natus, excepturi! Vero quam debitis facere saepe explicabo fugit iste tenetur assumenda.</p>
-              <button data-modal-close>X</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p></p>
+              <button class="close-button is-hidden" data-modal-close>
+                X
+              </button>
             </div>
           </div>
         </div>
@@ -454,36 +456,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- <section class="modal-hero" id="form-modal">
-      <div class="modal-bgd" id="form-modal">
-    
-        <div class="modal-form-container">
-          <button class="close-btn">x</button>
-    
-          <form action="#" class="modal-form" data-netlify="true" id="form">
-            <img src="./img/trezub.svg" alt="ukr logo">
-    
-            <h4 class="modal-form-title">Поділися, будь ласка, поштою</h4>
-            <p class="modal-form-descr">та запиши гуся до бандерозагону</p>
-    
-            <div class="modal-form-field">
-              <label for="user-name" class="modal-field-name">Ім'я</label>
-              <input required type="text" class="modal-field-input" id="user-name" name="Ім'я">
-            </div>
-    
-            <div class="modal-form-field">
-              <label for="user-email" class="modal-field-name">Email</label>
-              <input required type="email" class="modal-field-input" id="user-email" name="Email">
-            </div>
-    
-            <button class="modal-form-btn" id="launch-btn">Запустити гуся</button>
-    
-          </form>
-        </div>
-    
-      </div>
-    </section> -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
