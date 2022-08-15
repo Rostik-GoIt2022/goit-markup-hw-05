@@ -62,9 +62,16 @@
           <h1 class="hero-title">
             Эффективные решения для <br>вашего бизнеса
           </h1>
-          <button type="button" name="заказать услугу" class="hero-button">
+          <button type="button" name="заказать услугу" class="hero-button" data-modal-open>
             Заказать услугу
           </button>
+          
+          <div class="backdrop is-hidden">
+            <div class="modal" data-modal>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos velit, ea laborum harum dolor illum aliquid inventore. Natus, excepturi! Vero quam debitis facere saepe explicabo fugit iste tenetur assumenda.</p>
+              <button data-modal-close>X</button>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -229,6 +229,11 @@ button {
     color: var(--accent-color);
 }
 
+.modal {
+    position: absolute;
+    
+}
+
 /* section features */
 
 .features-title {
